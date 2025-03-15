@@ -16,7 +16,7 @@ export default function ConsumerLayout({
 
 function Navbar(){
   return(
-    <header className="flex h-12 shadow z-10">
+    <header className="flex h-12 shadow z-10 p-3">
       <nav className="flex gap-4 container">
         <Link className="mr-auto hover:underline"
         href="/">
@@ -54,7 +54,6 @@ function Navbar(){
             </Button>
           </SignedOut>
         </Suspense>
-        
       </nav>
     </header>
   )
